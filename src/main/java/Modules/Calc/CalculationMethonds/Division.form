@@ -5,7 +5,10 @@
     <constraints>
       <xy x="20" y="20" width="500" height="400"/>
     </constraints>
-    <properties/>
+    <properties>
+      <background color="-13223617"/>
+      <foreground color="-1"/>
+    </properties>
     <border type="none"/>
     <children>
       <component id="33826" class="javax.swing.JTextField" binding="Dividend">
@@ -14,7 +17,10 @@
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-13223617"/>
+          <foreground color="-1"/>
+        </properties>
       </component>
       <component id="d0ac9" class="javax.swing.JTextField" binding="Divisor">
         <constraints>
@@ -22,13 +28,18 @@
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-13223617"/>
+          <foreground color="-1"/>
+        </properties>
       </component>
       <component id="16388" class="javax.swing.JButton" binding="calculateButton">
         <constraints>
           <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-10983950"/>
+          <foreground color="-1"/>
           <text value="Calculate"/>
         </properties>
       </component>
@@ -52,6 +63,8 @@
           <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font size="16"/>
+          <foreground color="-1"/>
           <horizontalAlignment value="0"/>
           <horizontalTextPosition value="0"/>
           <text value=""/>

@@ -20,7 +20,7 @@ public class Division extends JFrame {
         setVisible(true);
         pack();
         setContentPane(mainPanel);
-        setSize(400, 400);
+        setSize(500, 400);
         calculateButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {

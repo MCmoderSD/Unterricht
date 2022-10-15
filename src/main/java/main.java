@@ -15,7 +15,7 @@ public class main extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setVisible(true);
         pack();
-        setSize(400, 400);
+        setSize(500, 400);
         setContentPane(mainPanel);
 
         Translate.addActionListener(new ActionListener() {
