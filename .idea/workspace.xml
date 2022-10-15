@@ -9,30 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66a73069-8a4d-405a-a32a-2ce97dddbb00" name="Changes" comment="double">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Modules/Calc/Calc.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modules/Calc/Calc.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Modules/Calc/CalculationMethonds/Addition.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modules/Calc/CalculationMethonds/Addition.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Modules/Calc/CalculationMethonds/Addition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modules/Calc/CalculationMethonds/Addition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Modules/Calc/CalculationMethonds/Division.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modules/Calc/CalculationMethonds/Division.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Modules/Calc/CalculationMethonds/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modules/Calc/CalculationMethonds/Division.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Modules/Calc/CalculationMethonds/Modulo.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modules/Calc/CalculationMethonds/Modulo.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Modules/Calc/CalculationMethonds/Modulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modules/Calc/CalculationMethonds/Modulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Modules/Calc/CalculationMethonds/Multiplikation.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modules/Calc/CalculationMethonds/Multiplikation.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Modules/Calc/CalculationMethonds/Multiplikation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modules/Calc/CalculationMethonds/Multiplikation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Modules/Calc/CalculationMethonds/Subtraktion.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modules/Calc/CalculationMethonds/Subtraktion.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Modules/Calc/CalculationMethonds/Subtraktion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modules/Calc/CalculationMethonds/Subtraktion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Modules/Calc/GUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modules/Calc/GUI.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Modules/Calc/CalculationMethonds/Addition$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Modules/Calc/CalculationMethonds/Addition$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Modules/Calc/CalculationMethonds/Addition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Modules/Calc/CalculationMethonds/Addition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Modules/Calc/CalculationMethonds/Division$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Modules/Calc/CalculationMethonds/Division$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Modules/Calc/CalculationMethonds/Division.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Modules/Calc/CalculationMethonds/Division.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Modules/Calc/CalculationMethonds/Modulo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Modules/Calc/CalculationMethonds/Modulo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Modules/Calc/CalculationMethonds/Multiplikation$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Modules/Calc/CalculationMethonds/Multiplikation$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Modules/Calc/CalculationMethonds/Multiplikation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Modules/Calc/CalculationMethonds/Multiplikation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Modules/Calc/CalculationMethonds/Subtraktion$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Modules/Calc/CalculationMethonds/Subtraktion$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Modules/Calc/CalculationMethonds/Subtraktion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Modules/Calc/CalculationMethonds/Subtraktion.class" afterDir="false" />
+    <list default="true" id="66a73069-8a4d-405a-a32a-2ce97dddbb00" name="Changes" comment="Dark Mode">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,6 +128,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="double" />
-    <option name="LAST_COMMIT_MESSAGE" value="double" />
+    <MESSAGE value="Dark Mode" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dark Mode" />
   </component>
 </project>
