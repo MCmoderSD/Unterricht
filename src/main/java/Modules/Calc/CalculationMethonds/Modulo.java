@@ -1,6 +1,8 @@
 package Modules.Calc.CalculationMethonds;
 
 import javax.swing.*;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
 
 public class Modulo extends JFrame {
     private JPanel mainPanel;
@@ -18,10 +20,28 @@ public class Modulo extends JFrame {
         setVisible(true);
 
         calculateButton.addActionListener(e -> {
-            int dividend = Integer.parseInt(Dividend.getText());
-            int divisor = Integer.parseInt(Divisor.getText());
-            int modulo = dividend % divisor;
+            double dividend = Integer.parseInt(Dividend.getText());
+            double divisor = Integer.parseInt(Divisor.getText());
+            double modulo = dividend % divisor;
             Modulo.setText(String.valueOf(modulo));
+        });
+
+        Dividend.addKeyListener(new KeyAdapter() {
+            @Override
+            public void keyTyped(KeyEvent e) {
+                char c = e.getKeyChar();
+                if (c== ',')
+                    e.setKeyChar('.');
+            }
+        });
+
+        Divisor.addKeyListener(new KeyAdapter() {
+            @Override
+            public void keyTyped(KeyEvent e) {
+                char c = e.getKeyChar();
+                if (c== ',')
+                    e.setKeyChar('.');
+            }
         });
 
 

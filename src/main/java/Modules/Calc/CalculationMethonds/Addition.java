@@ -1,10 +1,9 @@
 package Modules.Calc.CalculationMethonds;
 
+import jdk.internal.org.objectweb.asm.tree.analysis.Value;
+
 import javax.swing.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.InputMethodEvent;
-import java.awt.event.InputMethodListener;
+import java.awt.event.*;
 
 public class Addition extends JFrame {
     private JPanel mainPanel;
@@ -12,18 +11,6 @@ public class Addition extends JFrame {
     private JTextField Summand2;
     private JButton calculateButton;
     private JLabel Summe;
-
-    private void Summand1MouseClicked(InputMethodEvent e) {
-        if(e.getSource() == Summand1){
-            int summand1 = Integer.parseInt(Summand1.getText());
-        }
-    }
-
-    private void Summand2MouseClicked(InputMethodEvent e) {
-        if(e.getSource() == Summand2){
-            int summand2 = Integer.parseInt(Summand2.getText());
-        }
-    }
 
 
     public Addition() {
@@ -36,7 +23,25 @@ public class Addition extends JFrame {
         calculateButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                Summe.setText(String.valueOf(Integer.parseInt(Summand1.getText()) + Integer.parseInt(Summand2.getText())));
+                Summe.setText(String.valueOf(Double.parseDouble(Summand1.getText()) + Double.parseDouble(Summand2.getText())));
+                System.out.println(String.valueOf(Double.parseDouble(Summand1.getText()) + Double.parseDouble(Summand2.getText())));
+            }
+        });
+        Summand1.addKeyListener(new KeyAdapter() {
+            @Override
+            public void keyTyped(KeyEvent e) {
+                char c = e.getKeyChar();
+                if (c== ',')
+                    e.setKeyChar('.');
+            }
+        });
+
+        Summand2.addKeyListener(new KeyAdapter() {
+            @Override
+            public void keyTyped(KeyEvent e) {
+                char c = e.getKeyChar();
+                if (c== ',')
+                    e.setKeyChar('.');
             }
         });
     }

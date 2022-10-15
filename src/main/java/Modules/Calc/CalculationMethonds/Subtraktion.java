@@ -1,9 +1,7 @@
 package Modules.Calc.CalculationMethonds;
 
 import javax.swing.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.InputMethodEvent;
+import java.awt.event.*;
 
 public class Subtraktion extends JFrame {
     private JTextField Minuend;
@@ -11,18 +9,6 @@ public class Subtraktion extends JFrame {
     private JButton calculateButton;
     private JLabel Differenz;
     private JPanel mainPanel;
-
-    private void MinuendMouseClicked(InputMethodEvent e) {
-        if(e.getSource() == Minuend){
-            int minuend = Integer.parseInt(Minuend.getText());
-        }
-    }
-
-    private void SubtrahendMouseClicked(InputMethodEvent e) {
-        if(e.getSource() == Subtrahend){
-            int subtrahend = Integer.parseInt(Subtrahend.getText());
-        }
-    }
 
     public Subtraktion() {
         setTitle("Subtraktion");
@@ -34,7 +20,24 @@ public class Subtraktion extends JFrame {
         calculateButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                Differenz.setText(String.valueOf(Integer.parseInt(Minuend.getText()) - Integer.parseInt(Subtrahend.getText())));
+                Differenz.setText(String.valueOf(Double.parseDouble(Minuend.getText()) - Double.parseDouble(Subtrahend.getText())));
+            }
+        });
+        Minuend.addKeyListener(new KeyAdapter() {
+            @Override
+            public void keyTyped(KeyEvent e) {
+                char c = e.getKeyChar();
+                if (c== ',')
+                    e.setKeyChar('.');
+            }
+        });
+
+        Subtrahend.addKeyListener(new KeyAdapter() {
+            @Override
+            public void keyTyped(KeyEvent e) {
+                char c = e.getKeyChar();
+                if (c== ',')
+                    e.setKeyChar('.');
             }
         });
     }

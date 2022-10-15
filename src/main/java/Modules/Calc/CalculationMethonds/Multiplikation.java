@@ -3,6 +3,8 @@ package Modules.Calc.CalculationMethonds;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
 
 public class Multiplikation extends JFrame{
 
@@ -22,10 +24,28 @@ public class Multiplikation extends JFrame{
         calculateButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                int faktor1 = Integer.parseInt(Faktor1.getText());
-                int faktor2 = Integer.parseInt(Faktor2.getText());
-                int produkt = faktor1 * faktor2;
+                double faktor1 = Double.parseDouble(Faktor1.getText());
+                double faktor2 = Double.parseDouble(Faktor2.getText());
+                double produkt = faktor1 * faktor2;
                 Produkt.setText(String.valueOf(produkt));
+
+                Faktor1.addKeyListener(new KeyAdapter() {
+                    @Override
+                    public void keyTyped(KeyEvent e) {
+                        char c = e.getKeyChar();
+                        if (c== ',')
+                            e.setKeyChar('.');
+                    }
+                });
+
+                Faktor2.addKeyListener(new KeyAdapter() {
+                    @Override
+                    public void keyTyped(KeyEvent e) {
+                        char c = e.getKeyChar();
+                        if (c== ',')
+                            e.setKeyChar('.');
+                    }
+                });
 
             }
         });

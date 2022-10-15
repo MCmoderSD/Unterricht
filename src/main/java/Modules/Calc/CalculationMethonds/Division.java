@@ -3,9 +3,7 @@ package Modules.Calc.CalculationMethonds;
 import com.sun.xml.internal.bind.v2.model.annotation.Quick;
 
 import javax.swing.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.InputMethodEvent;
+import java.awt.event.*;
 
 
 public class Division extends JFrame {
@@ -15,16 +13,6 @@ public class Division extends JFrame {
     private JButton calculateButton;
     private JLabel Quotient;
 
-    private void DividendMouseClicked(InputMethodEvent e) {
-        if(e.getSource() == Dividend){
-            int dividend = Integer.parseInt(Dividend.getText());
-        }
-    }
-    private void DivisorMouseClicked(InputMethodEvent e) {
-        if(e.getSource() == Divisor){
-            int divisor = Integer.parseInt(Divisor.getText());
-        }
-    }
 
     public Division() {
         setTitle("Division");
@@ -36,8 +24,26 @@ public class Division extends JFrame {
         calculateButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                Quotient.setText(String.valueOf(Integer.parseInt(Dividend.getText()) / Integer.parseInt(Divisor.getText())));
+                Quotient.setText(String.valueOf(Double.parseDouble(Dividend.getText()) / Double.parseDouble(Divisor.getText())));
             }
         });
+        Dividend.addKeyListener(new KeyAdapter() {
+            @Override
+            public void keyTyped(KeyEvent e) {
+                char c = e.getKeyChar();
+                if (c== ',')
+                    e.setKeyChar('.');
+            }
+        });
+
+        Divisor.addKeyListener(new KeyAdapter() {
+            @Override
+            public void keyTyped(KeyEvent e) {
+                char c = e.getKeyChar();
+                if (c== ',')
+                    e.setKeyChar('.');
+            }
+        });
+
     }
 }
