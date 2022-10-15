@@ -5,3 +5,4 @@ random stuff zum Testen mit Themen die ich im Unterricht durchgenommen hatte
 
 - Hello World
 - Ganzzahl Rechenoperationen
+- Fließkommazahl Rechenoperationen 
