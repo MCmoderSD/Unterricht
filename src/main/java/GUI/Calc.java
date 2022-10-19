@@ -1,10 +1,10 @@
-package Modules.Calc;
+package GUI;
 
-import Modules.Calc.CalculationMethonds.Addition;
-import Modules.Calc.CalculationMethonds.Subtraktion;
-import Modules.Calc.CalculationMethonds.Multiplikation;
-import Modules.Calc.CalculationMethonds.Division;
-import Modules.Calc.CalculationMethonds.Modulo;
+import GUI.CalculationMethonds.Addition;
+import GUI.CalculationMethonds.Subtraktion;
+import GUI.CalculationMethonds.Multiplikation;
+import GUI.CalculationMethonds.Division;
+import GUI.CalculationMethonds.Modulo;
 
 import javax.swing.*;
 

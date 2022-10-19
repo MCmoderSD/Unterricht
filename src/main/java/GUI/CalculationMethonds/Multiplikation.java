@@ -1,4 +1,4 @@
-package Modules.Calc.CalculationMethonds;
+package GUI.CalculationMethonds;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;

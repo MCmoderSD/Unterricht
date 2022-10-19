@@ -1,4 +1,4 @@
-package Modules.Calc.CalculationMethonds;
+package GUI.CalculationMethonds;
 
 import com.sun.xml.internal.bind.v2.model.annotation.Quick;
 

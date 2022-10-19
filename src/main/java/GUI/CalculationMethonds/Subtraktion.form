@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Modules.Calc.CalculationMethonds.Modulo">
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUI.CalculationMethonds.Subtraktion">
   <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="3" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
@@ -7,12 +7,11 @@
     </constraints>
     <properties>
       <background color="-13223617"/>
-      <enabled value="true"/>
-      <foreground color="-1"/>
+      <foreground color="-13223617"/>
     </properties>
     <border type="none"/>
     <children>
-      <component id="7e6df" class="javax.swing.JTextField" binding="Dividend">
+      <component id="cf27" class="javax.swing.JTextField" binding="Minuend">
         <constraints>
           <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
@@ -23,7 +22,7 @@
           <foreground color="-1"/>
         </properties>
       </component>
-      <component id="e8db8" class="javax.swing.JTextField" binding="Divisor">
+      <component id="d4908" class="javax.swing.JTextField" binding="Subtrahend">
         <constraints>
           <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
@@ -34,22 +33,7 @@
           <foreground color="-1"/>
         </properties>
       </component>
-      <hspacer id="5d052">
-        <constraints>
-          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-        </constraints>
-      </hspacer>
-      <hspacer id="b0d1c">
-        <constraints>
-          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-        </constraints>
-      </hspacer>
-      <hspacer id="62dc6">
-        <constraints>
-          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-        </constraints>
-      </hspacer>
-      <component id="d8889" class="javax.swing.JButton" binding="calculateButton">
+      <component id="485d3" class="javax.swing.JButton" binding="calculateButton" default-binding="true">
         <constraints>
           <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -59,19 +43,33 @@
           <text value="Calculate"/>
         </properties>
       </component>
-      <component id="ba451" class="javax.swing.JLabel" binding="Modulo">
+      <component id="f9468" class="javax.swing.JLabel" binding="Differenz">
         <constraints>
           <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <background color="-1"/>
-          <font size="16"/>
           <foreground color="-1"/>
           <horizontalAlignment value="0"/>
           <horizontalTextPosition value="0"/>
           <text value=""/>
         </properties>
       </component>
+      <hspacer id="ecaa8">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="1de0a">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="a78ea">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
     </children>
   </grid>
 </form>

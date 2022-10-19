@@ -1,4 +1,4 @@
-package Modules.Calc.CalculationMethonds;
+package GUI.CalculationMethonds;
 
 import jdk.internal.org.objectweb.asm.tree.analysis.Value;
 
