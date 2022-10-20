@@ -9,42 +9,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66a73069-8a4d-405a-a32a-2ce97dddbb00" name="Changes" comment="Dark Mode">
-      <change afterPath="$PROJECT_DIR$/src/main/java/GUI/shutdown.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/GUI/shutdown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/functions/player.java" afterDir="false" />
+    <list default="true" id="66a73069-8a4d-405a-a32a-2ce97dddbb00" name="Changes" comment="Spammer; Shutdown; Added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/GUI/Calculator.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GUI/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Modules/Calc/Calc.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/Calc.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Modules/Calc/Calc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/Calc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Modules/Calc/CalculationMethonds/Addition.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/CalculationMethonds/Addition.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Modules/Calc/CalculationMethonds/Addition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/CalculationMethonds/Addition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Modules/Calc/CalculationMethonds/Division.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/CalculationMethonds/Division.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Modules/Calc/CalculationMethonds/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/CalculationMethonds/Division.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Modules/Calc/CalculationMethonds/Modulo.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/CalculationMethonds/Modulo.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Modules/Calc/CalculationMethonds/Modulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/CalculationMethonds/Modulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Modules/Calc/CalculationMethonds/Multiplikation.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/CalculationMethonds/Multiplikation.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Modules/Calc/CalculationMethonds/Multiplikation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/CalculationMethonds/Multiplikation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Modules/Calc/CalculationMethonds/Subtraktion.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/CalculationMethonds/Subtraktion.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Modules/Calc/CalculationMethonds/Subtraktion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/CalculationMethonds/Subtraktion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Modules/Calc/GUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/GUI.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Modules/Calc/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/GUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Modules/Calc/Calc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Modules/Calc/CalculationMethonds/Addition$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Modules/Calc/CalculationMethonds/Addition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Modules/Calc/CalculationMethonds/Division$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Modules/Calc/CalculationMethonds/Division.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Modules/Calc/CalculationMethonds/Modulo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Modules/Calc/CalculationMethonds/Multiplikation$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Modules/Calc/CalculationMethonds/Multiplikation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Modules/Calc/CalculationMethonds/Subtraktion$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Modules/Calc/CalculationMethonds/Subtraktion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Modules/Calc/GUI$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Modules/Calc/GUI$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Modules/Calc/GUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/CalculationMethonds/Addition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/CalculationMethonds/Addition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/CalculationMethonds/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/CalculationMethonds/Division.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/CalculationMethonds/Multiplikation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/CalculationMethonds/Multiplikation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/CalculationMethonds/Subtraktion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/CalculationMethonds/Subtraktion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/Spammer/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/shutdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/shutdown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/CalculationMethonds/Addition$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/CalculationMethonds/Addition$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/CalculationMethonds/Addition$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/CalculationMethonds/Addition$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/CalculationMethonds/Addition$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/CalculationMethonds/Addition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/CalculationMethonds/Addition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/CalculationMethonds/Division$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/CalculationMethonds/Division$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/CalculationMethonds/Division$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/CalculationMethonds/Division$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/CalculationMethonds/Division$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/CalculationMethonds/Division.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/CalculationMethonds/Division.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/CalculationMethonds/Multiplikation$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/CalculationMethonds/Multiplikation$1$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/CalculationMethonds/Multiplikation$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/CalculationMethonds/Multiplikation$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/CalculationMethonds/Multiplikation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/CalculationMethonds/Multiplikation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/CalculationMethonds/Subtraktion$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/CalculationMethonds/Subtraktion$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/CalculationMethonds/Subtraktion$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/CalculationMethonds/Subtraktion$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/CalculationMethonds/Subtraktion$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/CalculationMethonds/Subtraktion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/CalculationMethonds/Subtraktion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/GUI$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/GUI$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/GUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main$3.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,23 +78,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/MCmoderSD/Desktop&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/MCmoderSD/Desktop",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="functions" />
@@ -105,9 +106,22 @@
       <recent name="C:\Users\MCmoderSD\IdeaProjects\Unterricht\src\main\java\CalculationMethonds" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GUI.Calculator" />
+      <module name="Unterricht" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GUI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Unterricht" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -115,7 +129,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Calculator" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +161,8 @@
       <workItem from="1666108385856" duration="12000" />
       <workItem from="1666118138870" duration="455000" />
       <workItem from="1666118945891" duration="51000" />
-      <workItem from="1666208575705" duration="794000" />
+      <workItem from="1666208575705" duration="1277000" />
+      <workItem from="1666273843440" duration="5047000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1665834773511</created>
@@ -176,7 +192,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665864145043</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Spammer; Shutdown; Added">
+      <created>1666209538380</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666209538380</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Spammer; Shutdown; Added">
+      <created>1666209552667</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666209552667</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +227,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="double" />
     <MESSAGE value="Dark Mode" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dark Mode" />
+    <MESSAGE value="Spammer; Shutdown; Added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spammer; Shutdown; Added" />
   </component>
 </project>

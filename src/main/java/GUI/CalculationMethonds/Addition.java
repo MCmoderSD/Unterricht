@@ -1,9 +1,8 @@
 package GUI.CalculationMethonds;
 
-import jdk.internal.org.objectweb.asm.tree.analysis.Value;
-
 import javax.swing.*;
-import java.awt.event.*;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
 
 public class Addition extends JFrame {
     private JPanel mainPanel;
@@ -20,13 +19,7 @@ public class Addition extends JFrame {
         pack();
         setSize(500, 400);
         setContentPane(mainPanel);
-        calculateButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                Summe.setText(String.valueOf(Double.parseDouble(Summand1.getText()) + Double.parseDouble(Summand2.getText())));
-                System.out.println(String.valueOf(Double.parseDouble(Summand1.getText()) + Double.parseDouble(Summand2.getText())));
-            }
-        });
+        calculateButton.addActionListener(e -> Summe.setText(String.valueOf(Double.parseDouble(Summand1.getText()) + Double.parseDouble(Summand2.getText()))));
         Summand1.addKeyListener(new KeyAdapter() {
             @Override
             public void keyTyped(KeyEvent e) {

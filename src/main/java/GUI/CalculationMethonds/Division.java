@@ -1,9 +1,8 @@
 package GUI.CalculationMethonds;
 
-import com.sun.xml.internal.bind.v2.model.annotation.Quick;
-
 import javax.swing.*;
-import java.awt.event.*;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
 
 
 public class Division extends JFrame {
@@ -21,12 +20,7 @@ public class Division extends JFrame {
         pack();
         setContentPane(mainPanel);
         setSize(500, 400);
-        calculateButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                Quotient.setText(String.valueOf(Double.parseDouble(Dividend.getText()) / Double.parseDouble(Divisor.getText())));
-            }
-        });
+        calculateButton.addActionListener(e -> Quotient.setText(String.valueOf(Double.parseDouble(Dividend.getText()) / Double.parseDouble(Divisor.getText()))));
         Dividend.addKeyListener(new KeyAdapter() {
             @Override
             public void keyTyped(KeyEvent e) {

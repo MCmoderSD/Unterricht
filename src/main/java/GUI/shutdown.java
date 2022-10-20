@@ -43,8 +43,4 @@ public class shutdown {
             }
         });
     }
-
-    public static void main(String[] args) {
-        new shutdown();
-    }
 }

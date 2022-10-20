@@ -17,12 +17,7 @@ public class Subtraktion extends JFrame {
         pack();
         setSize(500, 400);
         setContentPane(mainPanel);
-        calculateButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                Differenz.setText(String.valueOf(Double.parseDouble(Minuend.getText()) - Double.parseDouble(Subtrahend.getText())));
-            }
-        });
+        calculateButton.addActionListener(e -> Differenz.setText(String.valueOf(Double.parseDouble(Minuend.getText()) - Double.parseDouble(Subtrahend.getText()))));
         Minuend.addKeyListener(new KeyAdapter() {
             @Override
             public void keyTyped(KeyEvent e) {
