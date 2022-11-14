@@ -1,32 +1,30 @@
-import GUI.Calculator;
-import GUI.GUI;
-import GUI.Spammer.Spammer;
-import GUI.shutdown;
+import java.io.IOException;
+import java.util.Scanner;
 
-import javax.swing.*;
-
-public class Main extends JFrame {
-    private JPanel mainPanel;
-    private JButton Translate;
-    private JButton Calculator;
-    private JButton shutdown;
-    private JButton Spammer;
-
-    public Main(){
-        setTitle("Unterricht");
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setVisible(true);
-        pack();
-        setSize(500, 400);
-        setContentPane(mainPanel);
-
-        Translate.addActionListener(e -> new GUI());
-        Calculator.addActionListener(e -> new Calculator());
-        shutdown.addActionListener(e -> new shutdown());
-        Spammer.addActionListener(e -> new Spammer());
-    }
-
+public class Main {
     public static void main(String[] args) {
-        new Main();
+        if (args.length == 0)
+            try {
+                Runtime.getRuntime().exec("cmd /c start \"\" java -jar ConsoleScripts.jar a");
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        System.out.println("Continue Through Console or GUI?");
+        System.out.println("1. Console");
+        System.out.println("2. GUI");
+        Scanner scanner = new Scanner(System.in);
+        String input = scanner.nextLine();
+        if (input.equals("1")) {
+            new Console.Loader();
+        } else if (input.equals("2")) {
+            new Interface.StartPage();
+        } else if (input.equals("Console") || input.equals("console")) {
+            new Console.Loader();
+        } else if (input.equals("GUI") || input.equals("gui")) {
+            new Interface.StartPage();
+        } else {
+            System.out.println("Invalid Input");
+        }
+
     }
 }
