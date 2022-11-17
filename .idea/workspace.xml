@@ -9,30 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66a73069-8a4d-405a-a32a-2ce97dddbb00" name="Changes" comment="rework">
-      <change beforePath="$PROJECT_DIR$/target/classes/Console/Loader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Console/Loader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Interface/Calculator$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Interface/Calculator$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Interface/Calculator$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Interface/Calculator$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Interface/Calculator$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Interface/Calculator$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Interface/Calculator$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Interface/Calculator$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Interface/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Interface/Calculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Calc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CalculationMethonds/Addition$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CalculationMethonds/Addition$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CalculationMethonds/Addition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CalculationMethonds/Division$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CalculationMethonds/Division$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CalculationMethonds/Division.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CalculationMethonds/Modulo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CalculationMethonds/Modulo$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CalculationMethonds/Modulo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CalculationMethonds/Multiplikation$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CalculationMethonds/Multiplikation$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CalculationMethonds/Multiplikation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CalculationMethonds/Subtraktion$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CalculationMethonds/Subtraktion$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CalculationMethonds/Subtraktion.class" beforeDir="false" />
-    </list>
+    <list default="true" id="66a73069-8a4d-405a-a32a-2ce97dddbb00" name="Changes" comment="Shutdown" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,29 +54,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "code.cleanup.on.save": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "C:/Users/MCmoderSD/IdeaProjects/Unterricht/src/main/java/Interface",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "show.migrate.to.gradle.popup": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;code.cleanup.on.save&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/MCmoderSD/IdeaProjects/Unterricht/src/main/java/Interface&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Console" />
@@ -195,6 +172,7 @@
       <workItem from="1668706544751" duration="2786000" />
       <workItem from="1668709498333" duration="954000" />
       <workItem from="1668710464875" duration="4259000" />
+      <workItem from="1668714764572" duration="295000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1665834773511</created>
@@ -280,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668714733395</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Shutdown">
+      <created>1668715050648</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1668715050648</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,6 +290,7 @@
     <MESSAGE value="Calculator Rework" />
     <MESSAGE value="Calculator Idiotensicher gemacht" />
     <MESSAGE value="rework" />
-    <option name="LAST_COMMIT_MESSAGE" value="rework" />
+    <MESSAGE value="Shutdown" />
+    <option name="LAST_COMMIT_MESSAGE" value="Shutdown" />
   </component>
 </project>
