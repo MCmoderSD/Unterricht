@@ -1,6 +1,6 @@
 package Interface;
 
-import Interface.Functions.MusicPlayer;
+import Functions.MusicPlayer;
 
 import javax.swing.*;
 

@@ -10,6 +10,7 @@ public class Loader {
         System.out.println("2: Name Alter");
         System.out.println("3: Kontostand");
         System.out.println("4: Rechner");
+        System.out.println("5: Shutdown");
         Scanner scanner = new Scanner(System.in);
         try {
             int script = scanner.nextInt();
@@ -25,6 +26,9 @@ public class Loader {
                     break;
                 case 4:
                     new Rechner();
+                    break;
+                case 5:
+                    new Shutdown();
                     break;
                 default:
                     System.out.println("Please enter the valid number of the script you want to start!");

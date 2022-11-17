@@ -1,4 +1,4 @@
-package Interface.Functions;
+package Functions;
 
 
 import javax.sound.sampled.AudioInputStream;
