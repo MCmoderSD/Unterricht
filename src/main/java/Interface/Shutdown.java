@@ -1,25 +1,25 @@
 package Interface;
 
-import functions.player;
+import Interface.Functions.MusicPlayer;
 
 import javax.swing.*;
 
-public class shutdown {
-    private JButton start;
+public class Shutdown {
+    private JButton bStart;
     private JPanel mainPanel;
 
-    public shutdown() {
+    public Shutdown() {
         JFrame frame = new JFrame("shutdown");
         frame.setContentPane(mainPanel);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
         frame.setVisible(true);
         frame.setSize(500, 400);
-        start.addActionListener(e -> {
+        bStart.addActionListener(e -> {
             try {
                 new Thread(() -> {
                     try {
-                        player player = new player();
+                        MusicPlayer player = new MusicPlayer();
                         player.play(getClass().getResource("/sounds/shutdown.wav"));
                         new Thread(() -> {
                             try {

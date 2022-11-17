@@ -10,9 +10,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66a73069-8a4d-405a-a32a-2ce97dddbb00" name="Changes" comment="Calculator Idiotensicher gemacht">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Console/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Console/Kontostand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Console/NameAlter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Console/Rechner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Console/Loader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Console/Loader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interface/StartPage.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Interface/StartPage.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interface/StartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Interface/StartPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Interface/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Interface/Calculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Calc.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Calc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CalculationMethonds/Addition.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CalculationMethonds/Addition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CalculationMethonds/Division.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CalculationMethonds/Division.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CalculationMethonds/Modulo.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CalculationMethonds/Modulo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CalculationMethonds/Multiplikation.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CalculationMethonds/Multiplikation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CalculationMethonds/Subtraktion.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CalculationMethonds/Subtraktion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Console/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Interface/Calculator.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Interface/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Interface/GUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Interface/HelloWorld.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Interface/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Interface/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Interface/Spammer/Spammer.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Interface/Spammer.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Interface/Spammer/Spammer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Interface/Spammer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Interface/shutdown.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Interface/Shutdown.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Interface/shutdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Interface/Shutdown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Main.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/functions/player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Interface/Functions/MusicPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Interface/StartPage$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Interface/StartPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Interface/StartPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +72,6 @@
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/test/java/Calc.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -72,6 +104,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -82,17 +115,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="Console" />
       <recent name="functions" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\MCmoderSD\IdeaProjects\Unterricht\src\main\java\Interface" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\MCmoderSD\IdeaProjects\Unterricht\src\main\java\Interface" />
+      <recent name="C:\Users\MCmoderSD\IdeaProjects\Unterricht\src\main\java\Interface\Spammer" />
+      <recent name="C:\Users\MCmoderSD\IdeaProjects\Unterricht\src\test\main\Interface\Spammer" />
       <recent name="C:\Users\MCmoderSD\IdeaProjects\Unterricht\src\test\java" />
       <recent name="C:\Users\MCmoderSD\IdeaProjects\Unterricht\src\main\java" />
-      <recent name="C:\Users\MCmoderSD\IdeaProjects\Unterricht\src\main\java\Modules\Calc" />
-      <recent name="C:\Users\MCmoderSD\IdeaProjects\Unterricht\src\main\java\Calc" />
-      <recent name="C:\Users\MCmoderSD\IdeaProjects\Unterricht\src\main\java\CalculationMethonds" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="Interface" />
@@ -172,6 +206,8 @@
       <workItem from="1668438652134" duration="5274000" />
       <workItem from="1668704766237" duration="1621000" />
       <workItem from="1668706544751" duration="2786000" />
+      <workItem from="1668709498333" duration="954000" />
+      <workItem from="1668710464875" duration="4114000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1665834773511</created>
@@ -236,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668708295396</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Calculator Idiotensicher gemacht">
+      <created>1668709529610</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1668709529610</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

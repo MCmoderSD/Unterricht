@@ -1,4 +1,4 @@
-package Interface.Spammer;
+package Interface;
 
 import javax.swing.*;
 import java.awt.*;
@@ -7,12 +7,12 @@ import java.awt.event.KeyEvent;
 
 public class Spammer extends JFrame {
 
-    private JButton startButton;
-    private JTextField delayToStart;
+    private JButton bStartButton;
+    private JTextField tfDelayToStart;
     private JPanel mainPanel;
-    private JTextField numberOfSpamms;
-    private JTextField delayBetweenSpamms;
-    private JTextField messageField;
+    private JTextField tfNumberOfSpamms;
+    private JTextField tfDelayBetweenSpamms;
+    private JTextField tfMessageField;
 
 
     public Spammer() {
@@ -24,18 +24,18 @@ public class Spammer extends JFrame {
                     return false;
                 });
         Window();
-        startButton.addActionListener(e -> {
-            if (numberOfSpamms.getText().isEmpty() || delayBetweenSpamms.getText().isEmpty() || delayToStart.getText().isEmpty() || messageField.getText().isEmpty()) {
+        bStartButton.addActionListener(e -> {
+            if (tfNumberOfSpamms.getText().isEmpty() || tfDelayBetweenSpamms.getText().isEmpty() || tfDelayToStart.getText().isEmpty() || tfMessageField.getText().isEmpty()) {
                 JOptionPane.showMessageDialog(null, "Please fill in all the fields");
             } else {
-                if (numberOfSpamms.getText().matches("[0-9]+") && delayBetweenSpamms.getText().matches("[0-9]+") && delayToStart.getText().matches("[0-9]+")) {
-                    if (Integer.parseInt(delayBetweenSpamms.getText()) < 1)
+                if (tfNumberOfSpamms.getText().matches("[0-9]+") && tfDelayBetweenSpamms.getText().matches("[0-9]+") && tfDelayToStart.getText().matches("[0-9]+")) {
+                    if (Integer.parseInt(tfDelayBetweenSpamms.getText()) < 1)
                         try {
                             Robot robot = new Robot();
-                            String message = messageField.getText();
-                            int times = Integer.parseInt(numberOfSpamms.getText());
-                            int delay = Integer.parseInt(delayBetweenSpamms.getText());
-                            int delayStart = Integer.parseInt(delayToStart.getText());
+                            String message = tfMessageField.getText();
+                            int times = Integer.parseInt(tfNumberOfSpamms.getText());
+                            int delay = Integer.parseInt(tfDelayBetweenSpamms.getText());
+                            int delayStart = Integer.parseInt(tfDelayToStart.getText());
                             StringSelection stringSelection = new StringSelection(message);
                             Toolkit.getDefaultToolkit().getSystemClipboard().setContents(stringSelection, null);
                             new Thread(() -> {
