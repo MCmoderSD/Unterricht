@@ -1,11 +1,16 @@
 # Unterricht
 random stuff zum Testen mit Themen die ich im Unterricht durchgenommen hatte
 
-### Derzeitige GUI Funktionen:
+## Modules:
 
-- Hello World
-- Ganzzahl Rechenoperationen
-- Fließkommazahl Rechenoperationen 
-- Dark Mode 
-- Spammer
+### Scripts:
+- Hallo Welt
+- Name Alter
+- Kontostand
+- Rechner
 - Shutdown
+### GUI:
+- Hello World
+- Calculator (+, -, *, /, %)
+- Shutdown
+- Spammer
