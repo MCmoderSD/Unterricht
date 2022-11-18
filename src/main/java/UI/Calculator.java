@@ -1,4 +1,6 @@
-package Interface;
+package UI;
+
+import Functions.DoesContain;
 
 import javax.swing.*;
 import java.awt.event.KeyAdapter;
@@ -6,6 +8,9 @@ import java.awt.event.KeyEvent;
 
 public class Calculator extends JFrame {
     boolean isNew = true;
+    char[] allowed = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '.', ',', '-'};
+    char[] operators = {'+', '-', '*', '/', '%'};
+
     private JPanel mainPanel;
     private JTextField tfNumber1;
     private JTextField tfNumber2;
@@ -24,7 +29,7 @@ public class Calculator extends JFrame {
             @Override
             public void keyTyped(KeyEvent e) {
                 char c = e.getKeyChar();
-                if (c == '0' || c == '1' || c == '2' || c == '3' || c == '4' || c == '5' || c == '6' || c == '7' || c == '8' || c == '9' || c == '.' || c == ',' || c == '-') {
+                if (DoesContain.contains(allowed, c)) {
                     e.setKeyChar(c);
                     if (c == ',')
                         e.setKeyChar('.');
@@ -38,7 +43,7 @@ public class Calculator extends JFrame {
             @Override
             public void keyTyped(KeyEvent e) {
                 char c = e.getKeyChar();
-                if (c == '0' || c == '1' || c == '2' || c == '3' || c == '4' || c == '5' || c == '6' || c == '7' || c == '8' || c == '9' || c == '.' || c == ',' || c == '-') {
+                if (DoesContain.contains(allowed, c)) {
                     e.setKeyChar(c);
                     if (c == ',')
                         e.setKeyChar('.');
@@ -54,8 +59,7 @@ public class Calculator extends JFrame {
             @Override
             public void keyTyped(KeyEvent e) {
                 char c = e.getKeyChar();
-                char[] operators = {'+', '-', '*', '/', '%'};
-                if (c == operators[0] || c == operators[1] || c == operators[2] || c == operators[3] || c == operators[4]) {
+                if (DoesContain.contains(operators, c)) {
                     e.setKeyChar(c);
                 } else {
                     e.consume();

@@ -1,4 +1,4 @@
-package Interface;
+package UI;
 
 import Functions.MusicPlayer;
 

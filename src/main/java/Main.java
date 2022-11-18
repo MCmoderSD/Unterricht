@@ -19,11 +19,11 @@ public class Main {
             if (input.equals("1")) {
                 new Console.Loader();
             } else if (input.equals("2")) {
-                new Interface.StartPage();
+                new UI.StartPage();
             } else if (input.equals("Console") || input.equals("console")) {
                 new Console.Loader();
             } else if (input.equals("GUI") || input.equals("gui")) {
-                new Interface.StartPage();
+                new UI.StartPage();
             } else {
                 System.out.println("Invalid Input");
             }
