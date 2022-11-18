@@ -7,14 +7,12 @@ import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 
 public class Spammer extends JFrame {
-
     private JButton bStartButton;
     private JTextField tfDelayToStart;
     private JPanel mainPanel;
     private JTextField tfNumberOfSpamms;
     private JTextField tfDelayBetweenSpamms;
     private JTextField tfMessageField;
-
 
     public Spammer() {
 
@@ -68,6 +66,7 @@ public class Spammer extends JFrame {
                     return false;
                 });
         Window();
+
         bStartButton.addActionListener(e -> {
             if (tfNumberOfSpamms.getText().isEmpty() || tfDelayBetweenSpamms.getText().isEmpty() || tfDelayToStart.getText().isEmpty() || tfMessageField.getText().isEmpty()) {
                 JOptionPane.showMessageDialog(null, "Please fill in all the fields");
@@ -114,5 +113,10 @@ public class Spammer extends JFrame {
         frame.setVisible(true);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setTitle("Spammer");
+    }
+
+    public void tapKey(Robot robot, int event) {
+        robot.keyPress(event);
+        robot.keyRelease(event);
     }
 }

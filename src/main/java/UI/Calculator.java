@@ -39,6 +39,7 @@ public class Calculator extends JFrame {
             }
 
         });
+
         tfNumber2.addKeyListener(new KeyAdapter() {
             @Override
             public void keyTyped(KeyEvent e) {
@@ -50,10 +51,8 @@ public class Calculator extends JFrame {
                 } else {
                     e.consume();
                 }
-
             }
         });
-
 
         tfOperator.addKeyListener(new KeyAdapter() {
             @Override
@@ -74,9 +73,7 @@ public class Calculator extends JFrame {
             }
         });
 
-
         bCalculate.addActionListener(e -> {
-
             if (tfNumber1.getText().isEmpty() || tfNumber2.getText().isEmpty() || tfOperator.getText().isEmpty()) {
                 JOptionPane.showMessageDialog(null, "Please fill in all fields");
             } else {
