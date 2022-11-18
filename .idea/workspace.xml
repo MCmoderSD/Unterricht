@@ -9,38 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66a73069-8a4d-405a-a32a-2ce97dddbb00" name="Changes" comment="Shutdown">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Functions/DoesContain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/UI/Formulary.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/UI/Formulary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Interface/Calculator.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UI/Calculator.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Interface/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UI/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Interface/HelloWorld.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UI/HelloWorld.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Interface/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UI/HelloWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Interface/Shutdown.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UI/Shutdown.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Interface/Shutdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UI/Shutdown.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Interface/Spammer.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UI/Spammer.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Interface/Spammer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UI/Spammer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Interface/StartPage.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UI/StartPage.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Interface/StartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UI/StartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Interface/Calculator$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Interface/Calculator$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Interface/Calculator$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Interface/Calculator$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Interface/Calculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Interface/HelloWorld.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Interface/Shutdown.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Interface/Spammer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Interface/StartPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main.class" afterDir="false" />
-    </list>
-    <list id="d2ec2f8d-62eb-4f92-89c7-619a96b70fcd" name="Changes by Rebix" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Interface/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UI/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Interface/Spammer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UI/Spammer.java" afterDir="false" />
-    </list>
+    <list default="true" id="66a73069-8a4d-405a-a32a-2ce97dddbb00" name="Changes" comment="Spammer overhaul" />
+    <list id="d2ec2f8d-62eb-4f92-89c7-619a96b70fcd" name="Changes by Rebix" comment="Changes by Rebix" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,34 +37,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/Console/Loader.java" root0="FORCE_HIGHLIGHTING" />
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/main/java/UI/Calculator.java">
-      <ranges>
-        <range start1="0" end1="1" start2="0" end2="3" changelist="66a73069-8a4d-405a-a32a-2ce97dddbb00" />
-        <range start1="8" end1="8" start2="10" end2="13" changelist="66a73069-8a4d-405a-a32a-2ce97dddbb00" />
-        <range start1="26" end1="27" start2="31" end2="32" changelist="66a73069-8a4d-405a-a32a-2ce97dddbb00" />
-        <range start1="36" end1="36" start2="41" end2="42" changelist="d2ec2f8d-62eb-4f92-89c7-619a96b70fcd" />
-        <range start1="40" end1="41" start2="46" end2="47" changelist="66a73069-8a4d-405a-a32a-2ce97dddbb00" />
-        <range start1="47" end1="48" start2="53" end2="53" changelist="d2ec2f8d-62eb-4f92-89c7-619a96b70fcd" />
-        <range start1="51" end1="52" start2="56" end2="56" changelist="d2ec2f8d-62eb-4f92-89c7-619a96b70fcd" />
-        <range start1="56" end1="58" start2="60" end2="61" changelist="66a73069-8a4d-405a-a32a-2ce97dddbb00" />
-        <range start1="72" end1="73" start2="75" end2="75" changelist="d2ec2f8d-62eb-4f92-89c7-619a96b70fcd" />
-        <range start1="74" end1="75" start2="76" end2="76" changelist="d2ec2f8d-62eb-4f92-89c7-619a96b70fcd" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/src/main/java/UI/Spammer.java">
-      <ranges>
-        <range start1="0" end1="1" start2="0" end2="1" changelist="66a73069-8a4d-405a-a32a-2ce97dddbb00" />
-        <range start1="5" end1="5" start2="5" end2="6" changelist="66a73069-8a4d-405a-a32a-2ce97dddbb00" />
-        <range start1="8" end1="9" start2="9" end2="9" changelist="d2ec2f8d-62eb-4f92-89c7-619a96b70fcd" />
-        <range start1="15" end1="16" start2="15" end2="15" changelist="d2ec2f8d-62eb-4f92-89c7-619a96b70fcd" />
-        <range start1="18" end1="18" start2="17" end2="47" changelist="66a73069-8a4d-405a-a32a-2ce97dddbb00" />
-        <range start1="26" end1="26" start2="55" end2="56" changelist="d2ec2f8d-62eb-4f92-89c7-619a96b70fcd" />
-        <range start1="30" end1="61" start2="60" end2="88" changelist="66a73069-8a4d-405a-a32a-2ce97dddbb00" />
-        <range start1="76" end1="76" start2="103" end2="108" changelist="d2ec2f8d-62eb-4f92-89c7-619a96b70fcd" />
-      </ranges>
-    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -236,7 +178,7 @@
       <workItem from="1668715553125" duration="56000" />
       <workItem from="1668719775261" duration="21000" />
       <workItem from="1668786442995" duration="2343000" />
-      <workItem from="1668788824056" duration="1750000" />
+      <workItem from="1668788824056" duration="2170000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1665834773511</created>
@@ -336,7 +278,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668715091212</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Spammer overhaul">
+      <created>1668790973001</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1668790973001</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Changes by Rebix">
+      <created>1668790981565</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1668790981565</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,6 +318,8 @@
     <MESSAGE value="Calculator Idiotensicher gemacht" />
     <MESSAGE value="rework" />
     <MESSAGE value="Shutdown" />
-    <option name="LAST_COMMIT_MESSAGE" value="Shutdown" />
+    <MESSAGE value="Spammer overhaul" />
+    <MESSAGE value="Changes by Rebix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes by Rebix" />
   </component>
 </project>
