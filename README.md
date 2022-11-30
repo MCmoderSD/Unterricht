@@ -14,3 +14,4 @@ random stuff zum Testen mit Themen die ich im Unterricht durchgenommen hatte
 - Calculator (+, -, *, /, %)
 - Shutdown
 - Spammer
+- Würfelspiel
