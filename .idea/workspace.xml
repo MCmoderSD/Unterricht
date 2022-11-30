@@ -9,7 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66a73069-8a4d-405a-a32a-2ce97dddbb00" name="Changes" comment="Spammer overhaul" />
+    <list default="true" id="66a73069-8a4d-405a-a32a-2ce97dddbb00" name="Changes" comment="Spammer overhaul">
+      <change afterPath="$PROJECT_DIR$/src/main/java/UI/Wuerfelspiel.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UI/Wuerfelspiel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UI/StartPage.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UI/StartPage.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UI/StartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UI/StartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UI/StartPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UI/StartPage.class" afterDir="false" />
+    </list>
     <list id="d2ec2f8d-62eb-4f92-89c7-619a96b70fcd" name="Changes by Rebix" comment="Changes by Rebix" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +57,7 @@
   <component name="ProjectId" id="2GAOgWa9EzWbBkYJKTPL9gtkIhc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -64,7 +72,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;code.cleanup.on.save&quot;: &quot;true&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/MCmoderSD/IdeaProjects/Unterricht/src/main/java/Interface&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/MCmoderSD/IdeaProjects/Unterricht&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -74,7 +82,7 @@
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
 }</component>
@@ -84,6 +92,8 @@
       <recent name="functions" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MCmoderSD\IdeaProjects\Spammer-GUI\src\main\java" />
+      <recent name="C:\Users\MCmoderSD\IdeaProjects\Spammer-GUI\src\main" />
       <recent name="C:\Users\MCmoderSD\IdeaProjects\Unterricht\src\main\java\Interface" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -97,7 +107,7 @@
       <recent name="Interface" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager">
     <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="UI.Calculator" />
       <module name="Unterricht" />
@@ -179,6 +189,16 @@
       <workItem from="1668719775261" duration="21000" />
       <workItem from="1668786442995" duration="2343000" />
       <workItem from="1668788824056" duration="2170000" />
+      <workItem from="1668791017642" duration="120000" />
+      <workItem from="1668792634849" duration="31000" />
+      <workItem from="1668792732733" duration="25000" />
+      <workItem from="1668792890731" duration="37000" />
+      <workItem from="1668796143016" duration="2105000" />
+      <workItem from="1668822286514" duration="16000" />
+      <workItem from="1668890176493" duration="80000" />
+      <workItem from="1669820624111" duration="94000" />
+      <workItem from="1669820738372" duration="4572000" />
+      <workItem from="1669825458514" duration="1344000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1665834773511</created>
@@ -292,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668790981565</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Spammer overhaul">
+      <created>1668791115245</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1668791115245</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,8 +345,8 @@
     <MESSAGE value="Calculator Idiotensicher gemacht" />
     <MESSAGE value="rework" />
     <MESSAGE value="Shutdown" />
-    <MESSAGE value="Spammer overhaul" />
     <MESSAGE value="Changes by Rebix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes by Rebix" />
+    <MESSAGE value="Spammer overhaul" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spammer overhaul" />
   </component>
 </project>
