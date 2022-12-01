@@ -7,6 +7,8 @@ import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 
 public class Spammer extends JFrame {
+    char[] allowedNumbers = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'};
+    char[] allowedDelay = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '.', ',', '-'};
     private JButton bStartButton;
     private JTextField tfDelayToStart;
     private JPanel mainPanel;
@@ -16,8 +18,6 @@ public class Spammer extends JFrame {
 
     public Spammer() {
 
-        char[] allowedNumbers = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'};
-        char[] allowedDelay = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '.', ',', '-'};
 
         tfNumberOfSpamms.addKeyListener(new KeyAdapter() {
             @Override
@@ -104,6 +104,10 @@ public class Spammer extends JFrame {
                 }
             }
         });
+    }
+
+    public static void main(String[] args) {
+        new Spammer();
     }
 
     public void Window() {

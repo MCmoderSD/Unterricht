@@ -1,5 +1,7 @@
 package UI;
 
+import Functions.JFrameConfig;
+
 import javax.swing.*;
 
 public class StartPage {
@@ -11,13 +13,8 @@ public class StartPage {
     private JButton bWuerfelspiel;
 
     public StartPage() {
-        JFrame frame = new JFrame("Starter");
-        frame.setContentPane(mainPanel);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.pack();
-        frame.setVisible(true);
-
-
+        JFrame frame = new JFrame("StartPage");
+        JFrameConfig.setJFrameConfig(frame, mainPanel, "Startseite");
         bCalculator.addActionListener(e -> {
             new Calculator();
             frame.dispose();
@@ -38,5 +35,9 @@ public class StartPage {
             new Wuerfelspiel();
             frame.dispose();
         });
+    }
+
+    public static void main(String[] args) {
+        new StartPage();
     }
 }

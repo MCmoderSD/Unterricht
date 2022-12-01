@@ -1,5 +1,7 @@
 package UI;
 
+import Functions.JFrameConfig;
+
 import javax.swing.*;
 
 public class HelloWorld extends JFrame {
@@ -8,11 +10,8 @@ public class HelloWorld extends JFrame {
     private JButton bTranslate;
 
     public HelloWorld() {
-        setTitle("Graphical User Interface (GUI)");
-        setContentPane(translate);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setVisible(true);
-        pack();
+        JFrame frame = new JFrame("HelloWorld");
+        JFrameConfig.setJFrameConfig(frame, translate, "HelloWorld");
         bTranslate.setVisible(true);
         bTranslate.addActionListener(e -> {
             if (bTranslate.getText().equals("Translate")) {
@@ -23,5 +22,9 @@ public class HelloWorld extends JFrame {
                 bTranslate.setText("Translate");
             }
         });
+    }
+
+    public static void main(String[] args) {
+        new HelloWorld();
     }
 }

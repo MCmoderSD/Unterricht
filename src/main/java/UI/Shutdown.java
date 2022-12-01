@@ -1,5 +1,6 @@
 package UI;
 
+import Functions.JFrameConfig;
 import Functions.MusicPlayer;
 
 import javax.swing.*;
@@ -10,11 +11,7 @@ public class Shutdown {
 
     public Shutdown() {
         JFrame frame = new JFrame("shutdown");
-        frame.setContentPane(mainPanel);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.pack();
-        frame.setVisible(true);
-        frame.setSize(500, 400);
+        JFrameConfig.setJFrameConfig(frame, mainPanel, "Shutdown");
         bStart.addActionListener(e -> {
             try {
                 new Thread(() -> {
@@ -43,5 +40,9 @@ public class Shutdown {
                 e1.printStackTrace();
             }
         });
+    }
+
+    public static void main(String[] args) {
+        new Shutdown();
     }
 }

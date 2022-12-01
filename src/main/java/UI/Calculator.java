@@ -1,6 +1,7 @@
 package UI;
 
 import Functions.DoesContain;
+import Functions.JFrameConfig;
 
 import javax.swing.*;
 import java.awt.event.KeyAdapter;
@@ -20,10 +21,7 @@ public class Calculator extends JFrame {
 
     public Calculator() {
         JFrame frame = new JFrame("Calculator");
-        frame.setContentPane(mainPanel);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.pack();
-        frame.setVisible(true);
+        JFrameConfig.setJFrameConfig(frame, mainPanel, "Calculator");
 
         tfNumber1.addKeyListener(new KeyAdapter() {
             @Override
@@ -43,14 +41,7 @@ public class Calculator extends JFrame {
         tfNumber2.addKeyListener(new KeyAdapter() {
             @Override
             public void keyTyped(KeyEvent e) {
-                char c = e.getKeyChar();
-                if (DoesContain.contains(allowed, c)) {
-                    e.setKeyChar(c);
-                    if (c == ',')
-                        e.setKeyChar('.');
-                } else {
-                    e.consume();
-                }
+
             }
         });
 
@@ -90,24 +81,12 @@ public class Calculator extends JFrame {
                         char operator = tfOperator.getText().charAt(0);
 
                         switch (operator) {
-                            case '+':
-                                tfOutput.setText(String.valueOf(number1 + number2));
-                                break;
-                            case '-':
-                                tfOutput.setText(String.valueOf(number1 - number2));
-                                break;
-                            case '*':
-                                tfOutput.setText(String.valueOf(number1 * number2));
-                                break;
-                            case '/':
-                                tfOutput.setText(String.valueOf(number1 / number2));
-                                break;
-                            case '%':
-                                tfOutput.setText(String.valueOf(number1 % number2));
-                                break;
-
-                            default:
-                                tfOutput.setText("Invalid Operator");
+                            case '+' -> tfOutput.setText(String.valueOf(number1 + number2));
+                            case '-' -> tfOutput.setText(String.valueOf(number1 - number2));
+                            case '*' -> tfOutput.setText(String.valueOf(number1 * number2));
+                            case '/' -> tfOutput.setText(String.valueOf(number1 / number2));
+                            case '%' -> tfOutput.setText(String.valueOf(number1 % number2));
+                            default -> tfOutput.setText("Invalid Operator");
                         }
                     } catch (Exception ex) {
                         JOptionPane.showMessageDialog(null, "Error at: " + ex.getMessage());
@@ -116,5 +95,9 @@ public class Calculator extends JFrame {
                 isNew = !isNew;
             }
         });
+    }
+
+    public static void main(String[] args) {
+        new Calculator();
     }
 }

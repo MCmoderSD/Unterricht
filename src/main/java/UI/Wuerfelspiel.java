@@ -1,5 +1,7 @@
 package UI;
 
+import Functions.JFrameConfig;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyAdapter;
@@ -21,18 +23,11 @@ public class Wuerfelspiel extends JFrame {
 
     public Wuerfelspiel() {
         JFrame frame = new JFrame("Würfelspiel");
-        frame.setContentPane(mainPanel);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.pack();
+        JFrameConfig.setJFrameConfig(frame, mainPanel, "Würfelspiel");
         frame.setSize(480, 480);
-        frame.setVisible(true);
-
         resetGame();
-
         bReset.addActionListener(e -> resetGame());
-
         bWurf.addActionListener(e -> engine());
-
         bReset.addKeyListener(new KeyAdapter() {
             public void keyPressed(KeyEvent e) {
                 if (e.getKeyCode() == KeyEvent.VK_ENTER) {
@@ -48,7 +43,7 @@ public class Wuerfelspiel extends JFrame {
         new Wuerfelspiel();
     }
 
-    public void engine() {
+    private void engine() {
         //iZahl = (int) (Math.random() * 6 + 1);    //Randomizer
         iZahl = random.nextInt(6) + 1;      //Randomizer
         iSumme += iZahl;
@@ -70,7 +65,7 @@ public class Wuerfelspiel extends JFrame {
         }
     }
 
-    public void resetGame() {
+    private void resetGame() {
         iSumme = 0;
         iZahl = 0;
         iHighScore = 0;
@@ -82,14 +77,12 @@ public class Wuerfelspiel extends JFrame {
         Game.setText(" ");
     }
 
-    public void highScore() {
-        while (iHighScore <= iWhile) {
+    private void highScore() {
+        while (iHighScore < iWhile) {
             engine();
             ++iIteration;
             System.out.println(iIteration + " Iterationen bis High Score von " + iHighScore + " erreicht wurde.");
         }
-        float fChance = (float) 1 / iIteration;
-        System.out.print("\nDie Chance auf einen High Score von " + iHighScore + " zu erreichen beträgt " + 1 + " zu " + iIteration);
-        //System.out.print(" bzw. " + fChance + "%.");
+        System.out.print("\nEs benötigte " + iIteration + " Iterationen bis ein High Score von " + iHighScore + " erreicht wurde.");
     }
 }

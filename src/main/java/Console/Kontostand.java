@@ -23,7 +23,6 @@ public class Kontostand {
             System.out.println("\n" + name + " Your Account Balance is 0!" + " You are just broke!");
         } else {
             System.out.println("\n" + name + " your Account Balance is positive!" + " You are rich!");
-
         }
         new Loader();
     }
