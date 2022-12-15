@@ -111,7 +111,7 @@
       <recent name="Interface" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Calculator">
     <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="UI.Calculator" />
       <module name="Unterricht" />
@@ -208,6 +208,7 @@
       <workItem from="1671051184997" duration="17000" />
       <workItem from="1671051212170" duration="144000" />
       <workItem from="1671117424763" duration="2449000" />
+      <workItem from="1671119896290" duration="209000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1665834773511</created>
@@ -356,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671119748324</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Odd or Even">
+      <created>1671120085577</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1671120085577</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

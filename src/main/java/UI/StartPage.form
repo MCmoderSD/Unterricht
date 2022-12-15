@@ -101,6 +101,7 @@
         </constraints>
         <properties>
           <background color="-10983950"/>
+          <font size="20"/>
           <foreground color="-1"/>
           <text value="Odd or Even"/>
         </properties>
