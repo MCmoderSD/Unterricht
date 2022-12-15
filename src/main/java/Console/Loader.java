@@ -11,6 +11,7 @@ public class Loader {
         System.out.println("3: Kontostand");
         System.out.println("4: Rechner");
         System.out.println("5: Shutdown");
+        System.out.println("6: Odd or Even");
         Scanner scanner = new Scanner(System.in);
         try {
             int script = scanner.nextInt();
@@ -30,6 +31,8 @@ public class Loader {
                 case 5:
                     new Shutdown();
                     break;
+                case 6:
+                    new OddOrEven();
                 default:
                     System.out.println("Please enter the valid number of the script you want to start!");
                     break;
@@ -37,5 +40,9 @@ public class Loader {
         } catch (Exception e) {
             System.out.println("Please enter a valid number!");
         }
+    }
+
+    public static void main(String[] args) {
+        new Loader();
     }
 }
