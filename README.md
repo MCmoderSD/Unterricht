@@ -9,9 +9,11 @@ random stuff zum Testen mit Themen die ich im Unterricht durchgenommen hatte
 - Kontostand
 - Rechner
 - Shutdown
+- Odd or Even
 ### GUI:
 - Hello World
 - Calculator (+, -, *, /, %)
 - Shutdown
 - Spammer
 - Würfelspiel
+- Odd or Even
