@@ -11,6 +11,7 @@ public class StartPage {
     private JButton bSpammer;
     private JButton bHelloWorld;
     private JButton bWuerfelspiel;
+    private JButton bOddOrEven;
 
     public StartPage() {
         JFrame frame = new JFrame("StartPage");
@@ -33,6 +34,10 @@ public class StartPage {
         });
         bWuerfelspiel.addActionListener(e -> {
             new Wuerfelspiel();
+            frame.dispose();
+        });
+        bOddOrEven.addActionListener(e -> {
+            new OddOrEven();
             frame.dispose();
         });
     }
