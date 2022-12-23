@@ -9,11 +9,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66a73069-8a4d-405a-a32a-2ce97dddbb00" name="Changes" comment="Würfelspiel">
+    <list default="true" id="66a73069-8a4d-405a-a32a-2ce97dddbb00" name="Changes" comment="Linux Update">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Functions/CheckOS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Console/Shutdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Console/Shutdown.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UI/StartPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UI/StartPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UI/Shutdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UI/Shutdown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Console/Shutdown.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Console/Shutdown.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UI/Shutdown.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UI/Shutdown.class" afterDir="false" />
     </list>
     <list id="d2ec2f8d-62eb-4f92-89c7-619a96b70fcd" name="Changes by Rebix" comment="Changes by Rebix" />
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +118,7 @@
       <recent name="Interface" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Calculator">
     <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="UI.Calculator" />
       <module name="Unterricht" />
@@ -210,7 +214,8 @@
       <workItem from="1669904848540" duration="2752000" />
       <workItem from="1671797192459" duration="715000" />
       <workItem from="1671826182769" duration="154000" />
-      <workItem from="1671826367080" duration="325000" />
+      <workItem from="1671826367080" duration="1062000" />
+      <workItem from="1671827601680" duration="29000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1665834773511</created>
@@ -338,7 +343,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669826972190</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Linux Update">
+      <created>1671826803337</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1671826803337</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,6 +379,7 @@
     <MESSAGE value="Changes by Rebix" />
     <MESSAGE value="Spammer overhaul" />
     <MESSAGE value="Würfelspiel" />
-    <option name="LAST_COMMIT_MESSAGE" value="Würfelspiel" />
+    <MESSAGE value="Linux Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Linux Update" />
   </component>
 </project>

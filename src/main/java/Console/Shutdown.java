@@ -22,7 +22,13 @@ public class Shutdown {
                     }).start();
                     Thread.sleep(16000);
                     System.out.println("Shutdown");
-                    Runtime.getRuntime().exec("shutdown -s -t 0");
+                    if (Functions.CheckOS.isWindows) {
+                        Runtime.getRuntime().exec("shutdown -s -t 0");
+                    } else if (Functions.CheckOS.isMac) {
+                        Runtime.getRuntime().exec("shutdown -h now");
+                    } else if (Functions.CheckOS.isUnix) {
+                        Runtime.getRuntime().exec("shutdown -h now");
+                    }
                 } catch (Exception e1) {
                     e1.printStackTrace();
                 }

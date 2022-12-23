@@ -1,10 +1,11 @@
+import Functions.CheckOS;
+
 import java.io.IOException;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        String OperatingSystem = System.getProperty("os.name");
-        if (OperatingSystem.contains("Windows")) {
+        if (CheckOS.isWindows) {
             if (args.length == 0) {
                 try {
                     Runtime.getRuntime().exec("cmd /c start \"\" java -jar Unterricht.jar a");
