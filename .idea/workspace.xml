@@ -9,15 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66a73069-8a4d-405a-a32a-2ce97dddbb00" name="Changes" comment="Linux Update">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Functions/CheckOS.java" afterDir="false" />
+    <list default="true" id="66a73069-8a4d-405a-a32a-2ce97dddbb00" name="Changes" comment="CheckOS">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Console/Shutdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Console/Shutdown.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UI/Shutdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UI/Shutdown.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Console/Shutdown.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Console/Shutdown.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UI/Shutdown.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UI/Shutdown.class" afterDir="false" />
     </list>
     <list id="d2ec2f8d-62eb-4f92-89c7-619a96b70fcd" name="Changes by Rebix" comment="Changes by Rebix" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +85,7 @@
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Csv.Editor.Settings&quot;,
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -216,6 +209,10 @@
       <workItem from="1671826182769" duration="154000" />
       <workItem from="1671826367080" duration="1062000" />
       <workItem from="1671827601680" duration="29000" />
+      <workItem from="1671827669146" duration="352000" />
+      <workItem from="1672074682876" duration="3000" />
+      <workItem from="1672074718852" duration="314000" />
+      <workItem from="1672075066944" duration="171000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1665834773511</created>
@@ -350,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671826803337</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="CheckOS">
+      <created>1671827854286</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1671827854286</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,6 +384,7 @@
     <MESSAGE value="Spammer overhaul" />
     <MESSAGE value="Würfelspiel" />
     <MESSAGE value="Linux Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Linux Update" />
+    <MESSAGE value="CheckOS" />
+    <option name="LAST_COMMIT_MESSAGE" value="CheckOS" />
   </component>
 </project>
